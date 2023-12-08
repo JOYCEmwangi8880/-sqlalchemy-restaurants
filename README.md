@@ -1,6 +1,6 @@
 ## Introduction
 
-Welcome to the Restaurants Application! This application provides a beautiful platform for managing restaurant information, customer records, customer reviews, and even an anagram checker. Whether you're a restaurant owner, a customer, or just an anagram enthusiast, this application has something for you.
+Welcome to the Restaurants Application! This application provides a  platform for managing restaurant information, customer records, customer reviews, and even an anagram checker. Whether you're a restaurant owner, a customer, or just an anagram enthusiast, this application has something for you.
 
 ## Features
 
@@ -40,12 +40,13 @@ Here's a simplified schema diagram:
 | id            |        | id           |        | id          |
 | name          |   <----| restaurant_id| ---->  | first_name  |
 | price         |        | customer_id  |        | last_name   |
-+---------------+        | star_rating  |        +-------------+
-                        | feedback     |
++---------------+        | star_rating
+                            comments  |        +-------------+
+                        | |
                         +--------------+
 
 
-## Contributing
+ ## Contributing
 
 Contributions to the Restaurants Application are encouraged and welcome! If you have any suggestions, bug reports, or feature requests. If you'd like to contribute to the project, please fork the repository, make your changes, and submit a pull request.
 
